@@ -1,0 +1,106 @@
+<!-- internal Styles -->
+<style type="text/css">
+            .menu{
+                list-style-type: none;
+                margin: 0;
+                margin-bottom: 50px;
+                padding: 0;
+                overflow: hidden;
+                background-color: #111;
+                position: -webkit-sticky; /* Safari */
+                position: sticky;
+                top: 0;
+                width: 100%;
+            }
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover{
+                background-color: #9AAB75;
+            }
+            .active {
+                background-color: #9AAB75;
+            }
+
+            .center-half {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 2%;
+                height: 40%;
+                width: 50%;
+            }
+            .center-full {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 100%;
+                width: 100%;
+            }
+            .img-half {
+                height: 50%;
+                width: 50%;
+            }
+            .products{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 90%;
+                border: none;
+            }
+            
+            .infobox{
+                background-color: #E8E7E7;
+                padding-bottom: 20px;
+                display: flex;
+                flex-direction: row;
+                height: auto;
+            }            
+            #container_80{
+                width: 80%;
+                display: flex;
+                flex-direction: row;
+                height: auto;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            .clear{
+                clear: both;
+            }            
+            .box-small{
+                margin: auto;
+                padding: 40px 20px 40px 20px;
+                float: left;
+                width: 28%;
+                text-align: center;
+                overflow-wrap: break-word;
+            }
+            .box-wide{
+                margin: auto;
+                width: 60%;
+                padding: 10px;
+                text-align: center;
+                overflow-wrap: break-word;
+            }
+            
+            #link-big{
+                font-size: 30px;
+                font-weight: bold;
+                text-decoration: underline;
+                color: black;
+            }
+            #link-medium{
+                font-size: 16px;
+                text-decoration: underline;
+                color: black;
+            }
+</style>
